@@ -1,11 +1,14 @@
 /*
-***************************************************************************
-*								twoSum                                        
-*                       Leetcode algorithm task one                           
-*						By Dayu Jin    Time: 08/31/2016                           
+*	INFORMATION
+*
+*	twoSum                                        
+*	Leetcode algorithm task one                           
+*	By Dayu Jin
+*	Time: 08/31/2016                           
 *                                                                            
-*  ************************************************************************  
-*								DOCUMENTATION                                
+*
+*	DOCUMENTATION      
+*
 *	** Problem **   
 *		* Question *
 *			1. Given an array of integers, return indices of the two numbers 
@@ -18,7 +21,6 @@
 *		* Output *
 *			1. Indices of the two numbers
 *  
-*  ************************************************************************
 *	** Solution **
 *		* Idea *
 *			1. A straightforward method is to use 2D loops, while the outer 
@@ -36,7 +38,6 @@
 *			3. 1D loop {O(n), O(1)}
 *			4. Return the result {O(1), O(1)}
 *                                                                          
-***************************************************************************
 */
 
 /* A brutal force C solution*/
