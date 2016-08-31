@@ -1,40 +1,40 @@
 /*
 ***************************************************************************
-*                                 twoSum                                        
-*						Leetcode algorithm task one                           
+*								twoSum                                        
+*                       Leetcode algorithm task one                           
 *						By Dayu Jin    Time: 08/31/2016                           
 *                                                                            
 *  ************************************************************************  
-*                               DOCUMENTATION                                
-*  ** Problem **   
-*     * Question *
-*		1. Given an array of integers, return indices of the two numbers 
-*		such that they add up to a specific target.
-*		2. You may assume that each input would have exactly one solution.
-*	  * Input *
-*		1. Array of given numbers
-*       2. Num of given numbers(Might be implicit)
-*       3. The specific added up target
-*     * Output *
-*       1. Indices of the two numbers
+*								DOCUMENTATION                                
+*	** Problem **   
+*		* Question *
+*			1. Given an array of integers, return indices of the two numbers 
+*			such that they add up to a specific target.
+*			2. You may assume that each input would have exactly one solution.
+*		* Input *
+*			1. Array of given numbers
+*			2. Num of given numbers(Might be implicit)
+*			3. The specific added up target
+*		* Output *
+*			1. Indices of the two numbers
 *  
 *  ************************************************************************
-*  ** Solution **
-*     * Idea *
-*       1. A straightforward method is to use 2D loops, while the outer 
-*		loop stops at an array slot, the inner loop go through all members
-*		after it to find the fit.
-*       2. While using OOP, hashtable could be a better choice which is
-*		a tradeoff of time and space.
-*     * Method for Idea1 *
-*		1. Malloc a space for the return array {O(1), O(1)}
-*       2. 2D loop {O(n^2), O(1)}
-*		3. Return the result {O(1), O(1)}
-*	  * Method for Idea2 *
-*		1. Create a new hashmap {O(1), O(1)}
-*		2. Put all elements in the hashmap {O(n), O(n)}
-*		3. 1D loop {O(n), O(1)}
-*		4. Return the result {O(1), O(1)}
+*	** Solution **
+*		* Idea *
+*			1. A straightforward method is to use 2D loops, while the outer 
+*			loop stops at an array slot, the inner loop go through all members
+*			after it to find the fit.
+*			2. While using OOP, hashtable could be a better choice which is
+*			a tradeoff of time and space.
+*		* Method for Idea1 *
+*			1. Malloc a space for the return array {O(1), O(1)}
+*			2. 2D loop {O(n^2), O(1)}
+*			3. Return the result {O(1), O(1)}
+*		* Method for Idea2 *
+*			1. Create a new hashmap {O(1), O(1)}
+*			2. Put all elements in the hashmap {O(n), O(n)}
+*			3. 1D loop {O(n), O(1)}
+*			4. Return the result {O(1), O(1)}
 *                                                                          
 ***************************************************************************
 */
