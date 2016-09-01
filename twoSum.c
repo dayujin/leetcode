@@ -67,16 +67,16 @@ int* twoSum(int* nums, int numsSize, int target) {
 }
 
 /* A Clever JAVA Solution*/
-public class Solution 
+public class Solution
 {
-	public int[] TwoSum(int[] nums, int target) 
+	public int[] twoSum(int[] nums, int target)
 	{
 
 		/* Create a new hashmap*/
-		Map<integer, integer> map = new Hashmap<>();
-		
+		Map<Integer, Integer> map = new HashMap<>();
+
 		/* Put items in array into hashmap*/
-		for (int i = 0; i < nums.length; i++) 
+		for (int i = 0; i < nums.length; i++)
 		{
 			map.put(nums[i], i);
 		}
