@@ -39,13 +39,13 @@
 *			1. Same number can appear multiple times but the result needs to be exclusive.
 *			2. Strict time limitation is imposed on the eliminatation of same results.
 *		* Method for Idea *
-*			1. Define the Return List
-*			2. Sort the input array
-*			3. Perform twoSum for each given number(number value different) in input array
+*			1. Define the Return List {O(1), O(1)}
+*			2. Sort the input array {O(nlogn), O(1)}
+*			3. Perform twoSum for each given number(number value different) in input array {O(n^2), O(n^2)}
 *			31.case1(sum < target) move forward start pointer
 *			32.case2(sum > target) move backword end pointer
 *			33.case3(sum == target)record result and move both pointers to a new num value
-*			4. Return the result
+*			4. Return the result {O(1), O(1)}
 */
 
 /* A JAVA Solution*/
